@@ -1,0 +1,17 @@
+export const ToolsName = [
+    { btnName: "Tailwind Gradient Generator", to: "/tools/TailwindGradientGenerator" },
+    { btnName: "Color Picker", to: "/ColorPicker" },
+    { btnName: "JSON Formatter", to: "/JsonFormatter" },
+    { btnName: "Regex Tester", to: "/RegexTester" },
+    { btnName: "Code Diff Checker", to: "/CodeDiffChecker" },
+    { btnName: "Markdown Previewer", to: "/MarkdownPreviewer" },
+    { btnName: "URL Encoder/Decoder", to: "/UrlEncoderDecoder" },
+    { btnName: "Base64 Encoder/Decoder", to: "/Base64EncoderDecoder" },
+    { btnName: "Image Compressor", to: "/ImageCompressor" },
+    { btnName: "SVG to PNG Converter", to: "/SvgToPngConverter" },
+    { btnName: "Unit Converter", to: "/UnitConverter" },
+    { btnName: "Timestamp Converter", to: "/TimestampConverter" },
+    { btnName: "Lorem Ipsum Generator", to: "/LoremIpsumGenerator" },
+    { btnName: "Responsive Design Checker", to: "/ResponsiveChecker" },
+    { btnName: "Git Command Helper", to: "/GitCommandHelper" },
+  ];

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+} */
+
+@supports (scrollbar-color: auto) {
+  .CustomScrollBar {
+    scrollbar-color: gray transparent;
+  }
+}
+
+@supports selector(::-webkit-scrollbar) {
+  .CustomScrollBar::-webkit-scrollbar {
+    background: gray;
+  }
+  .CustomScrollBar::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+}
